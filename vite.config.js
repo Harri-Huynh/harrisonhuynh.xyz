@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
     // base: `/${env.VITE_REPO_NAME}/`,
-    base: "/harri-huynh.github.io",
+    base: "/portfolio-website/",
     plugins: [react(), tailwindcss()],
     // server: {
     //   open: true,
