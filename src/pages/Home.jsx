@@ -16,24 +16,24 @@ const Home = () => {
       <div className="introduction-profile-background">
         <div className="content">
           <Introduction />
-          <Profile />
+          {/* <Profile /> */}
         </div>
       </div>
-      <div className="bg-soft-white pt-30">
+      {/* <div className="bg-soft-white pt-30">
         <WorkProcess />
-      </div>
+      </div> */}
       <Portfolio />
-      <div className="bg-gray-900">
+      {/* <div className="bg-gray-900">
         <WorkTogether />
-      </div>
-      <div className="blog-background">
+      </div> */}
+      {/* <div className="blog-background">
         <Blog />
-      </div>
-      <div className="bg-soft-white">
+      </div> */}
+      {/* <div className="bg-soft-white">
         <Profession />
-      </div>
-      <HappyClients />
-      <Testimonial />
+      </div> */}
+      {/* <HappyClients />
+      <Testimonial /> */}
       <Contact />
     </div>
   );

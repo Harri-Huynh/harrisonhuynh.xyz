@@ -10,8 +10,8 @@ const projectData = [
   {
     id: 1,
     image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Full-Stack Development",
+    title: "Spotify Buds React App",
     description:
       "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
     link: "#!",
@@ -19,8 +19,8 @@ const projectData = [
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Research Project",
+    title: "Machine Learning Dimension Reduction Analysis",
     description:
       "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
     link: "#!",
@@ -28,8 +28,8 @@ const projectData = [
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Operating Systems",
+    title: "EXT2 File System",
     description:
       "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
     link: "#!",
@@ -37,8 +37,8 @@ const projectData = [
   {
     id: 4,
     image: card4,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Research Project",
+    title: "Optimization Method for Runge’s Function Interpolation Error",
     description:
       "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
     link: "#!",
@@ -46,8 +46,8 @@ const projectData = [
   {
     id: 5,
     image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Research Project",
+    title: "Python ODE Mapper",
     description:
       "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
     link: "#!",
@@ -73,8 +73,7 @@ const Portfolio = () => {
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
           <p className="section-title ">Portfolio</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work, showcasing my skills in
-            creating user-centric and visually appealing interfaces.
+            Here's a selection of my recent work, showcasing my skills in a variety of different disciplines.
           </p>
         </div>
       </div>
@@ -85,14 +84,14 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <div className="text-center">
+      {/* <div className="text-center">
         <a
           href="#!"
           className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
         >
           More Project
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

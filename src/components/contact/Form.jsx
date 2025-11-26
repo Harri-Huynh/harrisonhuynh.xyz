@@ -19,8 +19,7 @@ const Form = () => {
   return (
     <div>
       <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal text-soft-dark">
-        I'm always open to discussing product design work or partnership
-        opportunities.
+        
       </p>
       <div className="mx-2">
         <form className="flex flex-col gap-4 mt-4">
